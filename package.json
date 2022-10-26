@@ -5,15 +5,27 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@dropzone-ui/react": "^6.7.20",
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/serialize": "^1.1.0",
+    "@mantine/core": "5.5",
+    "@mantine/dropzone": "^5.6.2",
+    "@mantine/hooks": "5.5",
+    "@tabler/icons": "^1.107.0",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-mantine": "^5.0.0",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-uploader": "^2.1.0",
+    "tabler-icons-react": "^1.55.0",
+    "uninstall": "^0.0.0"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
@@ -24,7 +36,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
